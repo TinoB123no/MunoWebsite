@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0" style="background-image: linear-gradient(
+  45deg,
+  hsl(55deg 100% 50%) 0%,
+  hsl(51deg 100% 50%) 11%,
+  hsl(46deg 100% 50%) 22%,
+  hsl(42deg 100% 50%) 33%,
+  hsl(37deg 100% 50%) 44%,
+  hsl(33deg 100% 50%) 56%,
+  hsl(27deg 100% 50%) 67%,
+  hsl(22deg 100% 50%) 78%,
+  hsl(15deg 100% 50%) 89%,
+  hsl(0deg 100% 50%) 100%
+);">
+    <div id="topNavigationBar" class="h-48 w-screen flex  items-center justify-around">
+        <div id="zimbabweanFlag" class="h-32 w-32 bg-contain bg-center overflow-hidden" style="background-image: url(./img/zimbabweFlag.png);"></div>
+            <div id="title">
+            <h1 class=" font-mono text-emerald-400">Meet The Munochiveyi's</h1>
+        </div>
+        <div id="familyMembers">
+            <h3 class="text-white font-hide">Family Members</h3>
+        </div>
+    </div>
+    <div id="sideNavigationBar" class="w-32 h-screen flex flex-col justify-around p-6 pl-14">
+        <div id="storeRun" class="text-white">
+            <h3>Store Run</h3>
+        </div>
+        <div id="choreCycle" class="text-white">
+            <h3>Chore Cycle</h3>
+        </div>
+        <div id="familyRecipes" class="text-white">
+            <h3>Family Recipes</h3>
+        </div>
+        <div id="photoAlbum" class="text-white">
+            <h3>Photo Album</h3>
+        </div>
+        <div id="location" class="text-white">
+            <h3>Location</h3>
+        </div>
+        <div id="More">
+            <h3 class="text-white">More</h3>
+        </div>
+    </div>
+    <div id="mainContent" class=" w-screen h-screen absolute left-32 top-48">
+        <div id="cards" class="relative left-20">
+            <div id="card1" class="w-64 h-80 bg-white border-2 rounded-3xl relative left-1/4 top-10">
+                <div id="photo1" style="background-image: url(./img/all_white\ copy.jpg);" class="relative w-62 h-64 overflow-hidden bg-cover bg-no-repeat rounded-t-3xl">
+
+                </div>
+                <div id="caption1">
+                    <div id="userInformation">
+                        <ion-icon name="person-circle-outline" id="profilePicture" class="relative left-2 top-2"></ion-icon>
+                        <p id="userIsMom" class="inline-block relative left-2 top-1.5">Sarah</p>
+                    </div>
+                    <div id="comment">
+                        <p class="text-sm relative left-2">Getting ready for dad's birthday!</p>
+                    </div>
+                    <div id="toolBar" class=" w-56 h-4 flex justify-between relative left-2 ">
+                        <div id="likesBar" class="shrink-0">
+                            <ion-icon name="heart" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">296</p>
+                        </div>
+                        <div id="viewsBar"class="shrink-0">
+                            <ion-icon name="stats-chart" class="relative  "></ion-icon>
+                            <p class="inline-block relative  ">570</p>
+                        </div>
+                        <div id="commentBar"class="shrink-0">
+                            <ion-icon name="chatbubble-ellipses" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">68</p>
+                        </div>
+                        <div id="shareBar"class="shrink-0">
+                            <ion-icon name="share" class="relative  "></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card2" class="w-64 h-80 bg-white border-2 rounded-3xl relative left-2/4">
+                <div id="photo1" style="background-image: url(./img/mom_dad2.jpeg);"
+                    class="relative w-62 h-64 overflow-hidden bg-cover bg-no-repeat rounded-t-3xl">
+                
+                </div>
+                <div id="caption1">
+                    <div id="userInformation">
+                        <ion-icon name="person-circle-outline" id="profilePicture" class="relative left-2 top-2"></ion-icon>
+                        <p id="userIsMom" class="inline-block relative left-2 top-1.5">Dad</p>
+                    </div>
+                    <div id="comment">
+                        <p class="text-sm relative left-2">Just dropped off Tino! </p>
+                    </div>
+                    <div id="toolBar" class=" w-56 h-4 flex justify-between relative left-2 ">
+                        <div id="likesBar" class="shrink-0">
+                            <ion-icon name="heart" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">296</p>
+                        </div>
+                        <div id="viewsBar" class="shrink-0">
+                            <ion-icon name="stats-chart" class="relative  "></ion-icon>
+                            <p class="inline-block relative  ">570</p>
+                        </div>
+                        <div id="commentBar" class="shrink-0">
+                            <ion-icon name="chatbubble-ellipses" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">68</p>
+                        </div>
+                        <div id="shareBar" class="shrink-0">
+                            <ion-icon name="share" class="relative  "></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card3" class="w-64 h-80 bg-white border-2 rounded-3xl relative left-96 -top-32">
+                <div id="photo1" style="background-image: url(./img/Mom_1\ copy\ 2.jpg);"
+                    class="relative w-62 h-64 overflow-hidden bg-cover bg-no-repeat rounded-t-3xl">
+                
+                </div>
+                <div id="caption1">
+                    <div id="userInformation">
+                        <ion-icon name="person-circle-outline" id="profilePicture" class="relative left-2 top-2"></ion-icon>
+                        <p id="userIsMom" class="inline-block relative left-2 top-1.5">Mom</p>
+                    </div>
+                    <div id="comment">
+                        <p class="text-sm relative left-2">Still got it</p>
+                    </div>
+                    <div id="toolBar" class=" w-56 h-4 flex justify-between relative left-2 ">
+                        <div id="likesBar" class="shrink-0">
+                            <ion-icon name="heart" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">296</p>
+                        </div>
+                        <div id="viewsBar" class="shrink-0">
+                            <ion-icon name="stats-chart" class="relative  "></ion-icon>
+                            <p class="inline-block relative  ">570</p>
+                        </div>
+                        <div id="commentBar" class="shrink-0">
+                            <ion-icon name="chatbubble-ellipses" class="relative "></ion-icon>
+                            <p class="inline-block relative  ">68</p>
+                        </div>
+                        <div id="shareBar" class="shrink-0">
+                            <ion-icon name="share" class="relative  "></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div id="leftButton" style="background-image: url(./img/leftArrow.png);" class="h-32 w-32 bg-contain absolute left-36 top-1/2">
+
+            </div>
+            <div id="rightButton" style="background-image: url(./img/leftArrow.png);" class="h-32 w-32 bg-contain absolute left-3/4 top-1/2">
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
